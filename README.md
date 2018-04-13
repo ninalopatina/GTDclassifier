@@ -1,9 +1,10 @@
 # GTDclassifier
 # Global Terrorist Attacks Group Name Classifier
 
+
 Global Terrorism Database (GTD) is an open-source database including information on terrorist events around the world from 1970 through 2014. Some portion of the attacks have not been attributed to a particular terrorist group. Original data and information can be found here: http://www.start.umd.edu/gtd/
 
-In this notebook, I have used location, attack type, weapons used, description of the attack, etc. to build a model that can predict what group may have been responsible for an incident. 
+One very exciting application of machine learning is in finding relationships in large datasets that would escape the human eye. Random Forest Classifiers (RFC) are supervised ensemble-learning models that perform well with large numbers of classes. In this notebook, I have used location, attack type, weapons used, description of the attack, etc. to build an RFC model that can predict what group may have been responsible for an incident. An accurate model would provide great utility in attributing terrorist attacks to the responsible groups. 
 
 How to run:
 1) Download data from this github folder or http://www.start.umd.edu/gtd/
